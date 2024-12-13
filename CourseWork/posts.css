@@ -1,0 +1,203 @@
+* {margin: 0; padding: 0;}
+
+body {
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 1.2em;
+    background-color: #fdfcfb; /* Màu nền nhã nhặn */
+}
+
+header {
+    display: block;
+    background-color: #340d9e; /* Màu cam đỏ rực rỡ */
+    padding: 20px;
+    border-bottom: 5px solid #F7B05B; /* Màu vàng cam ấm áp */
+}
+
+#admin {
+    background-color: #7E57C2; /* Màu tím nhạt hiện đại */
+}
+
+h1 {
+    font-weight: normal;
+    padding: 1.5em;
+    color: #ffffff; /* Màu chữ trắng nổi bật */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Tạo hiệu ứng bóng mềm mại */
+    width: 1000px;
+    margin: auto;
+}
+
+nav {
+    background-color: #2E86AB; /* Màu xanh dương nổi bật */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Hiệu ứng chuyển màu mượt mà */
+}
+
+nav a:hover {
+    color: #FFD700; /* Màu vàng sáng khi hover */
+}
+
+nav ul {
+    display: table;
+    width: 1000px;
+    margin: auto;
+}
+
+nav li {
+    display: table-cell;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    overflow: auto;
+    min-height: 30vh;
+    background-color: #F5F5F5; /* Màu xám sáng tinh tế */
+    width: 1000px;
+    margin: auto;
+    box-shadow: -1000px 0 0 #F5F5F5, 1000px 0 0 #F5F5F5;
+    padding-top: 20px;
+}
+
+footer {
+    padding: 1em;
+    background-color: #f1bb24; /* Màu xanh lá tươi sáng */
+    font-size: 0.8em;
+    color: #ffffff;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+input, label, select, textarea {
+    float: left;
+    width: 15em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    clear: left;
+    padding: 0;
+    margin: 0;
+}
+
+input[type="submit"] {
+    margin-left: 15em;
+    width: auto;
+    padding: 0.5em 1em;
+    clear: both;
+    font-size: 1em;
+    background-color: #007BFF; /* Màu xanh biển đậm */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Màu xanh biển đậm hơn khi hover */
+}
+
+form {
+    overflow: auto;
+    clear: both;
+    display: block;
+}
+
+blockquote {
+    display: table;
+    margin-bottom: 1em;
+    border-left: 5px solid #FF6F61; /* Màu viền đỏ cam nổi bật */
+    padding: 0.5em;
+    background-color: #FFF9F6; /* Màu nền dịu nhẹ */
+}
+
+blockquote p {
+    display: table-cell;
+    width: 70%;
+    vertical-align: top;
+}
+
+blockquote form {
+    display: table-cell;
+    width: 10%;
+}
+
+.errors {
+    padding: 1em;
+    border: 1px solid red;
+    background-color: #FFD2D2; /* Màu nền đỏ nhạt dễ nhìn */
+    color: red;
+    margin-bottom: 1em;
+    overflow: auto;
+}
+
+.errors ul {
+    margin-left: 1em;
+}
+
+form p {
+    clear: both;
+}
+
+input[type="checkbox"] {
+    float: left;
+    clear: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+input[type="checkbox"] + label {
+    clear: right;
+}
+
+.postlist {
+    display: table;
+}
+
+.categories {
+    display: table-cell;
+    width: 20%;
+    background-color: #344955; /* Màu xanh đen hiện đại */
+    padding: 1em;
+    list-style-type: none;
+}
+
+.categories a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.categories a:hover {
+    color: #FFA726; /* Màu cam sáng khi hover */
+}
+
+.categories li {
+    margin-bottom: 1em;
+}
+
+.postlist .posts {
+    display: table-cell;
+    padding: 1em;
+}
+
+.currentpage:before {
+    content: "[";
+    color: #007BFF; /* Màu xanh biển làm điểm nhấn */
+}
+
+.currentpage:after {
+    content: "]";
+    color: #007BFF;
+}
